@@ -87,8 +87,8 @@ end
 %Z0 = [];
 
 %% Performs iterative steps to get better approximations
-[Z1J,CountJ,Z1nJ] = AberthMethodJacobi(Q,Z0,StopCriteria,IterOrEps);
-[Z1GS,CountGS,Z1nGS] = AberthMethodGaussSeidel(Q,Z0,StopCriteria,IterOrEps);
+[Z1J,CountJ,Z1nJ] = AberthMethodJacobi(Q, Z0, StopCriteria, IterOrEps);
+[Z1GS,CountGS,Z1nGS] = AberthMethodGaussSeidel(Q, Z0, StopCriteria, IterOrEps, Roots);
 
 
 %% Replaces zero roots
